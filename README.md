@@ -1,5 +1,5 @@
 # scrapy_boohee
-最全的爬取薄荷网食物热量统计，8k+实物
+最全的爬取薄荷网食物热量统计，8k+食物详情与图片
 
 #### 项目结构
 
@@ -34,6 +34,20 @@
 > |-- food_detail.json # 详情爬虫的输出文件
 >
 > |-- food_detail_backup.json # 详情爬虫上一次的输出文件
+>
+> |-- data_transfer.py # json转csv
+>
+> |-- get_pic.py # 下载图片
+>
+> |-- scrapy.cfg
+>
+> |	|-- csv/ 
+>
+> |	|-- img_small/ 
+>
+> |	|-- img_big/ 
+>
+> |	|-- img_traffic/ 
 
 
 
