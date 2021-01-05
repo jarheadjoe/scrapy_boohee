@@ -1,56 +1,6 @@
 # scrapy_boohee
 最全的爬取薄荷网食物热量统计，8k+食物详情与图片
 
-#### 项目结构
-
-> scrapy_boohee/
->
-> |-- boohee/
->
-> |	|-- spiders/ 
->
-> |	|	|-- \_\_init\_\_.py
->
-> |	|	|-- food_detail.py # 详情爬虫
->
-> |	|	|-- food_name.py # 名称爬虫
->
-> |	|-- \_\_init\_\_.py
->
-> |	|-- items.py
->
-> |	|-- middlewares.py
->
-> |	|-- piplines.py
->
-> |	|-- settings.py
->
-> |-- all.csv # 爬取的实物最终结果，包含描述与图片地址
->
-> |-- food_name.json # 名称爬虫的输出文件
->
-> |-- food_name.json # 名称爬虫上一次的输出文件
->
-> |-- food_detail.json # 详情爬虫的输出文件
->
-> |-- food_detail_backup.json # 详情爬虫上一次的输出文件
->
-> |-- data_transfer.py # json转csv
->
-> |-- get_pic.py # 下载图片
->
-> |-- scrapy.cfg
->
-> |	|-- csv/ 
->
-> |	|-- img_small/ 
->
-> |	|-- img_big/ 
->
-> |	|-- img_traffic/ 
-
-
-
 #### 使用说明
 
 - 首先运行食物名称爬虫
@@ -87,6 +37,58 @@
 - 如果任何单位或个人认为该项目的脚本可能涉嫌侵犯其权利，则应及时通知并提供身份证明，所有权证明，我们将在收到认证文件后删除相关脚本。
 - 您必须在下载后的24小时内从计算机或手机中完全删除以上内容。
 - 本项目遵循`GPL-3.0 License`协议，如果本特别声明与`GPL-3.0 License`协议有冲突之处，以本特别声明为准。
+
+#### 项目结构
+
+> scrapy_boohee/
+>
+> |-- boohee/
+>
+> |    |-- spiders/ 
+>
+> |    |    |-- \_\_init\_\_.py
+>
+> |    |    |-- food_detail.py # 详情爬虫
+>
+> |    |    |-- food_name.py # 名称爬虫
+>
+> |    |
+>
+> |    |-- \_\_init\_\_.py
+>
+> |    |-- items.py
+>
+> |    |-- middlewares.py
+>
+> |    |-- piplines.py
+>
+> |    |-- settings.py
+>
+> |
+>
+> |-- all.csv # 爬取的实物最终结果，包含描述与图片地址
+>
+> |-- food_name.json # 名称爬虫的输出文件
+>
+> |-- food_name.json # 名称爬虫上一次的输出文件
+>
+> |-- food_detail.json # 详情爬虫的输出文件
+>
+> |-- food_detail_backup.json # 详情爬虫上一次的输出文件
+>
+> |-- data_transfer.py # json转csv
+>
+> |-- get_pic.py # 下载图片
+>
+> |-- scrapy.cfg
+>
+> |    |-- csv/ 
+>
+> |    |-- img_small/ 
+>
+> |    |-- img_big/ 
+>
+> |    |-- img_traffic/ </font>
 
 
 
